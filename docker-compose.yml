@@ -1,9 +1,0 @@
-version: '3'
-
-services:
-  fastapi:
-    image: fastapi
-    build: .
-    container_name: fastapi-ocr-api
-    ports:
-      - "8000:8000"
